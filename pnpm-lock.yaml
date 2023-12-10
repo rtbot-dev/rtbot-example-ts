@@ -5,14 +5,44 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@rtbot-dev/rtbot':
+    specifier: ^0.3.0
+    version: 0.3.1
   typescript:
     specifier: ^4.9.5
     version: 4.9.5
 
 packages:
 
+  /@rtbot-dev/rtbot@0.3.1:
+    resolution: {integrity: sha512-bi0TW5KAMGBGSKmPK+Ep0BEjXA/ByAbEYlmBvEouDPjznMomSZBw4V7AQZg8cPfzmX8CQaOt0rFh1dfYZVbOWQ==}
+    dependencies:
+      '@rtbot-dev/wasm': 0.3.1
+      class-transformer: 0.5.1
+      nanoid: 3.3.5
+      zod: 3.22.4
+    dev: false
+
+  /@rtbot-dev/wasm@0.3.1:
+    resolution: {integrity: sha512-CEIdxuBZdVGNkKz0n4lED+x9+oyk2jS41UTm2KFIACWOqxHFx+wRGUdUNxmeqALoboDLmr7lGNWLn2TSKWmvMQ==}
+    dev: false
+
+  /class-transformer@0.5.1:
+    resolution: {integrity: sha512-SQa1Ws6hUbfC98vKGxZH3KFY0Y1lm5Zm0SY8XX9zbK7FJCyVEac3ATW0RIpwzW+oOfmHE5PMPufDG9hCfoEOMw==}
+    dev: false
+
+  /nanoid@3.3.5:
+    resolution: {integrity: sha512-nvgaJGpIANf4+VWJAaDGORQyMzhFkze8aXVdrHq+BaSvzfpOuponEysaVFKV/0Bca5V+3SBiDvRabEPbpalEBg==}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+    dev: false
+
   /typescript@4.9.5:
     resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
     hasBin: true
+    dev: false
+
+  /zod@3.22.4:
+    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
     dev: false

@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "typescript": "^4.9.5",
-    "@rtbot-dev/rtbot": "^0.1.0"
+    "@rtbot-dev/rtbot": "^0.3.0"
   }
 }
